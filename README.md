@@ -5,7 +5,8 @@ Minimalistic es6 template compiler producing reusable modules
 
 ## HTML
 
-`ts tsc example/html/index.ts`
+`tsc example/html/index.ts`
+
 `node example/html/index.js`
 
 ```html
