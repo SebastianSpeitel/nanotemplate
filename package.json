@@ -1,0 +1,30 @@
+{
+  "name": "nanotemplate",
+  "version": "1.0.0",
+  "description": "Minimalistic es6 template compiler producing reusable modules",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianSpeitel/nanotemplate.git"
+  },
+  "keywords": [
+    "template",
+    "template-literal",
+    "nano",
+    "minimalistic",
+    "modular"
+  ],
+  "author": "Sebastian Speitel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SebastianSpeitel/nanotemplate/issues"
+  },
+  "homepage": "https://github.com/SebastianSpeitel/nanotemplate#readme",
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  },
+  "types": "dist/index.d.ts"
+}
