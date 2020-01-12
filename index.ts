@@ -20,8 +20,11 @@ function c(temp: NanoTemplate): string {
   throw TypeError("Unknown template type");
 }
 
-export function nano(strs: TemplateStringsArray, ...temps: NanoTemplate[]) {
-  return strs.reduce((str, t, i) => str + t + c(temps[i]), "");
+export function nano(
+  strs: TemplateStringsArray,
+  ...temps: NanoTemplate[]
+): string {
+  return temps.reduce<string>((str, t, i) => str + c(t) + strs[i + 1], strs[0]);
 }
 
 export default nano;
