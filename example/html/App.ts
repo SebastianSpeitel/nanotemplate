@@ -9,7 +9,7 @@ const articles = [
 
 export default nano`<!doctype html>
 <html lang="de">
-${Head("Generated from nanotemplate")}
+${Head("Generated from nanolit")}
 <body>
   <h1>Headline</h1>
   ${articles.map(Article)}

@@ -1,7 +1,7 @@
 {
-  "name": "nanotemplate",
+  "name": "nanolit",
   "version": "1.0.0",
-  "description": "Minimalistic es6 template compiler producing reusable modules",
+  "description": "Minimalistic es6 template literal compiler producing reusable modules",
   "main": "dist/index.js",
   "scripts": {
     "prepare": "tsc"

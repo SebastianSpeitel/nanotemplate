@@ -1,5 +1,5 @@
-# nanotemplate
-Minimalistic es6 template compiler producing reusable modules
+# nanolit
+Minimalistic es6 template literal compiler producing reusable modules
 
 # Examples
 
@@ -14,7 +14,7 @@ Minimalistic es6 template compiler producing reusable modules
 <html lang="de">
 <head>
   <meta charset="utf-8">
-  <title>Generated from nanotemplate</title>
+  <title>Generated from nanolit</title>
 </head>
 <body>
   <h1>Headline</h1>
